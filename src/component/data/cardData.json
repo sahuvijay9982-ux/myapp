@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "React JS Course",
+    "description": "Learn React from basics to advanced with real projects.",
+    "image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Course",
+    "description": "Master JavaScript fundamentals and advanced concepts.",
+    "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg"
+  },
+  {
+    "id": 3,
+    "title": "HTML & CSS",
+    "description": "Build responsive websites using HTML5 and CSS3.",
+    "image": "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Node JS",
+    "description": "Backend development using Node.js and Express.",
+    "image": "https://images.pexels.com/photos/8150112/pexels-photo-8150112.jpeg"
+  }
+]
