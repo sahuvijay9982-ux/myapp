@@ -4,6 +4,7 @@ import Card from "./component/Card";
 import Services from "./component/Services";
 import About from "./component/About";
 import {
+  Form,
   Navigate, Route
   
   , Routes
@@ -12,6 +13,10 @@ import Layout from "./component/Layout";
 import Input from "./component/Input";
 import Searchdata from "./component/Searchdata";
 import Cards from "./Cards";
+import MyForm from "./component/MyForm";
+import Sample from "./component/Sample";
+import FormApplication from "./component/Formapplication";
+import Regestration from "./component/Regestration";
 
 function App() {
 
@@ -66,6 +71,42 @@ function App() {
           element={
             <Layout>
               <Searchdata />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/myform"
+          element={
+            <Layout>
+              <MyForm />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/sample"
+          element={
+            <Layout>
+              <Sample />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/formapplication"
+          element={
+            <Layout>
+              <FormApplication />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/regestration"
+          element={
+            <Layout>
+              <Regestration/>
             </Layout>
           }
         />
